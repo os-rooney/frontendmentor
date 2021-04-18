@@ -50,9 +50,9 @@ Users should be able to:
 ```js
 const proudOfThisFunc = () => {
     if (window.innerWidth < 376) {
-        console.log(':gift_heart:');
+        console.log('👏');
     } else {
-        console.log(':dizzy:');
+        console.log('🎶');
     }
 };
 ```
