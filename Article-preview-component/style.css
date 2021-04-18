@@ -58,6 +58,9 @@ body {
     border-radius: 50%;
     width: 100%;
 }
+.avatar.hide {
+    display: none;
+}
 .author {
     flex: 4;
 }
@@ -70,9 +73,15 @@ body {
     color: hsl(212, 23%, 69%);
     font-weight: 500;
 }
+.author.hide {
+    display: none;
+}
 .share {
     flex: 1;
     display: flex;
+}
+.share.hide {
+    display: none;
 }
 .share button {
     width: 2rem;
@@ -91,10 +100,15 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    position: absolute;
     width: 80%;
+    left: 2.45rem;
     background-color: hsl(217, 19%, 35%);
     height: 4rem;
     border-radius: 0px 0px 10px 10px;
+}
+.share-bar.hide-sharebar {
+    display: none;
 }
 .share-text span {
     color: hsl(212, 23%, 69%);
@@ -121,10 +135,7 @@ body {
     background-color: hsl(214, 17%, 51%);
     border-radius: 50%;
 }
-.hide-footer {
-    display: none;
-}
-.hide-sharebar {
+.actionDestop-open.hide {
     display: none;
 }
 /* Desktop display */
