@@ -23,19 +23,19 @@ Users should be able to:
 
 #### Desktop Version
 
-![Desktop](/screenshots/Desktop.png)
+![Desktop](./screenshots/Desktop.png)
 
 #### Desktop Active
 
-![Desktop-Active](/screenshots/Desktop_active.png)
+![Desktop-Active](./screenshots/Desktop_active.png)
 
 #### Mobile Version
 
-![Mobile](/screenshots/Mobile.png)
+![Mobile](./screenshots/Mobile.png)
 
 #### Mobile Active
 
-![Mobile-Active](/screenshots/Mobile_active.png)
+![Mobile-Active](./screenshots/Mobile_active.png)
 
 ## My process
 
@@ -50,9 +50,9 @@ Users should be able to:
 ```js
 const proudOfThisFunc = () => {
     if (window.innerWidth < 376) {
-        console.log(':gift_heart:');
+        console.log('👏');
     } else {
-        console.log(':dizzy:');
+        console.log('🎶');
     }
 };
 ```

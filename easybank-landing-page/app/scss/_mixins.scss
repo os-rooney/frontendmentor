@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // Beakpoints
 //1024px - use em, beacuse most consistent amoung browsers
 @media (min-width: 64em) {
@@ -20,4 +21,28 @@ $breakpoints-down: ("small": "39.9375em" ,"medium": "63.9375em", "large": "88.43
     @media (max-width: map-get($breakpoints-down, $size)){
         @content;
     }
+=======
+// Beakpoints
+//1024px - use em, beacuse most consistent amoung browsers
+@media (min-width: 64em) {
+
+}  
+
+// breakpoint-up: at this point and bigger use this styles
+// 640px, 1024px, 1400px
+$breakpoints-up: ("medium": "40em", "large": "64em", "xlarge": "87.5em"); 
+// 639px, 1023px, 1399px. -1px to prevent overlapping
+$breakpoints-down: ("small": "39.9375em" ,"medium": "63.9375em", "large": "88.4375em");
+
+@mixin breakpoint-up($size){
+    @media (min-width: map-get($breakpoints-up, $size)){
+        @content;
+    }
+}
+
+@mixin breakpoint-down($size){
+    @media (max-width: map-get($breakpoints-down, $size)){
+        @content;
+    }
+>>>>>>> 78825cc64cc84587745eb88236c49c21b707cd19
 }
